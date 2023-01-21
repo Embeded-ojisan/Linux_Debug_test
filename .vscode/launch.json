@@ -19,6 +19,17 @@
         "preLaunchTask": "C/C++: g++ アクティブなファイルのビルド",
         "miDebuggerPath": "/usr/bin/gdb",
         "externalConsole": false
+      },
+      {
+        "name": "Bash-Debug (hardcoded script name)",
+        "type": "bashdb",
+        "request": "launch",
+        "stopAtEntry": true,
+        "cwd": "${workspaceFolder}",
+        "program": "${workspaceFolder}/bubbleSort.sh",
+        "args": [
+            "4", "3", "2", "1"
+        ]
       }
     ]
-  }
+}

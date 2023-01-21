@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../Private_Implementation_Protocol_in_CPP"
 		}
 	],
 	"settings": {
