@@ -5,6 +5,10 @@
 			"path": "../Private_Implementation_Protocol_in_CPP"
 		},
 		{
+			"name": "Teach-yourself_Python",
+			"path": "../Teach-yourself_Python"
+		},
+		{
 			"name": "Linux_Debug_test",
 			"path": "."
 		}
