@@ -21,12 +21,23 @@
         "externalConsole": false
       },
       {
-        "name": "Bash-Debug (hardcoded script name)",
+        "name": "Bash-Debug (Parent)",
         "type": "bashdb",
         "request": "launch",
         "stopAtEntry": true,
         "cwd": "${workspaceFolder}",
-        "program": "${workspaceFolder}/bubbleSort.sh",
+        "program": "${command:SelectScriptName}",
+        "args": [
+            "4", "3", "2", "1"
+        ]
+      },
+      {
+        "name": "Bash-Debug (Child)",
+        "type": "bashdb",
+        "request": "launch",
+        "stopAtEntry": true,
+        "cwd": "${workspaceFolder}",
+        "program": "${command:SelectScriptName}",
         "args": [
             "4", "3", "2", "1"
         ]

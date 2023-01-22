@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "Private_Implementation_Protocol_in_CPP",
+			"path": "../Private_Implementation_Protocol_in_CPP"
 		},
 		{
-			"path": "../Private_Implementation_Protocol_in_CPP"
+			"name": "Linux_Debug_test",
+			"path": "."
 		}
 	],
 	"settings": {
